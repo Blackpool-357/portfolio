@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma première page HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.freepik.com/photos-gratuite/lion-allonge-sol-sous-lumiere-du-soleil-surface-floue_181624-48519.jpg?semt=ais_hybrid">
+    <style>
+        .bouton { 
+        background-color: chartreuse;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline;}
+
+        #bouton1 { background-color: brown;}
+        #bouton2 {font-weight: bold;}
+    </style>
+    <script>
+        alert("Bienvenue sur mon site")
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Comment coder</h1>
+        <nav>
+            <ol>
+                <li><a href="a.html">La balise a</a></li>
+                <li><a href="div.html">La balise div</a></li>
+                <li><a href="p.html">La balise p</a></li>
+                <li><a href="headings.html">Les balises headings</a></li>
+                <li><a href="img.html">La balise image</a></li>
+                <li><a href="listes.html">Les listes</a></li>
+                <li><a href="span.html">Les spans</a></li>
+                <li><a href="input.html">Les inputs</a></li>
+                <li><a href="strong-em.html">strong et em</a></li>
+                <li><a href="form.html">Les balises form</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Article de blog</h2>
+            <article>
+                <h3>Mon super article</h3>
+                <p>Le Lion (Panthera leo) est une espèce de mammifères carnivores de la famille des Félidés. La femelle du lion est la lionne, son petit est le lionceau. Le mâle adulte, aisément reconnaissable à son importante crinière, accuse une masse moyenne qui peut être variable selon les zones géographiques où il se trouve, allant de 145 à 180 kg pour les lions d'Asie à plus de 225 kg pour les lions d'Afrique. Certains spécimens très rares peuvent dépasser exceptionnellement 300 kg. Un mâle adulte se nourrit de 7 kg de viande chaque jour contre 5 kg chez la femelle. Le lion est un animal grégaire, c'est-à-dire qu'il vit en larges groupes familiaux, contrairement aux autres félins. Son espérance de vie, à l'état sauvage, est comprise entre 7 et 12 ans pour le mâle et 14 à 20 ans pour la femelle, mais il dépasse fréquemment les 30 ans en captivité. </p>
+                <p><strong>L'intro de mon article est la suivante :</strong> </p>
+            </article>
+        </section>
+        <h2>Tableaux</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Âge</th>
+                    <th>Moyenne</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>24</td>
+                    <td>16/20</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>22</td>
+                    <td>12.5/20</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>2</td>
+                    <td>21</td>
+                    <td>14.75</td>
+                </tr>
+            </tfoot>
+        </table>
+        <section>
+            <h2>Input Texte</h2>
+            <input type="text">
+            <br>
+            <br>
+            <textarea rows="7" cols="50" placeholder="mon super texte area"></textarea>
+        </section>
+        <section>
+            <h2>Autres</h2>
+            <code>print("bonjour")</code>
+        </section>
+        <section>
+            <h2>Boutons</h2>
+            <div class="bouton" id="bouton1">Bouton 1</div>
+            <div class="bouton" id="bouton2">Bouton 2</div>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h3><em>avez-vous aimmé ?</em></h3>
+            <br>
+            <input type="checkbox">
+            <br>
+            <h3>Un commentaire ?</h3>
+            <br>
+            <textarea name="Hello" id="Hello1" placeholder="Veuillez écrire ici"></textarea>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h5>Réseaux sociaux</h5>
+            <ul>
+                <li><a href="https://www.youtube.com">Youtube</a></li>                
+            </ul>
+        </div>
+        <span>Comment coder 2024</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
